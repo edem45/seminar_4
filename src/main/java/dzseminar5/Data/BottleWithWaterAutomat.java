@@ -1,6 +1,10 @@
-package dz1seminar1;
+package dzseminar5.Data;
+import dzseminar5.Data.BottleWithWater;
+import dzseminar5.Data.Product;
+import dzseminar5.View.View;
+
 import java.util.List;
-public class BottleWithWaterAutomat implements Automat {
+public class BottleWithWaterAutomat extends BottleWithWater {
 
     private final List<BottleWithWater> products;
 

@@ -1,8 +1,11 @@
-package dz1seminar1;
+package dzseminar5.Data;
 
 public abstract class Product {
     private String name;
     private double cost;
+
+    protected Product() {
+    }
 
     public String getName() {
         return name;

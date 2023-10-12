@@ -1,13 +1,20 @@
-package dz1seminar1;
+package dzseminar5.Data;
+
+import dzseminar5.View.View;
 
 import java.util.List;
 
 
-public class HotDrinkAutomat implements Automat {
+public class HotDrinkAutomat extends HotDrink {
 
     private final List<HotDrink> products;
 
     public HotDrinkAutomat(List<HotDrink> products){
+        this.products = products;
+    }
+
+    public HotDrinkAutomat(String name, double cost, int value, int temperature, List<HotDrink> products) {
+        super(name, cost, value, temperature);
         this.products = products;
     }
 

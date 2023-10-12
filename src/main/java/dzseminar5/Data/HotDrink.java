@@ -1,11 +1,15 @@
-package dz1seminar1;
+package dzseminar5.Data;
 
 public class HotDrink extends BottleWithWater {
     private int temperature;
+    private int value;
 
     public HotDrink(String name, double cost, int value, int temperature) {
         super(name, cost, value);
         this.temperature = temperature;
+    }
+
+    public HotDrink() {
     }
 
     public double getTemperature() {
@@ -14,6 +18,14 @@ public class HotDrink extends BottleWithWater {
 
     public void setTemperature(int temperature) {
         this.temperature = temperature;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
     }
 
     @Override

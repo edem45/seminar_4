@@ -1,4 +1,4 @@
-package dz1seminar1;
+package dzseminar5.Data;
 
 public class BottleWithWater extends Product {
     private int volume;
@@ -6,6 +6,9 @@ public class BottleWithWater extends Product {
     public BottleWithWater (String name, double cost, int volume){
         super(name,cost);
         this.volume = volume;
+    }
+
+    public BottleWithWater() {
     }
 
     public int getVolume() {
